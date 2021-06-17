@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Sets the main background color of the entire website to white */
+body {
+  background-color: #d9dcd6;
+}
+
+/* Creates a padding of 20px around the text inside header;
+sets the font-family of the text;
+sets the background color of the text to be blue;
+sets the color of the text to be white */
+header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: white;
+}
+
+/* Sets each character in the header text to be displayed as blocks but next to each other;
+sets the font-size to be 48 px */
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/* Definition of the seo class */
+/* Used to set the characters "seo" inside the company's name in the header tag*/
+header h1 .seo {
+  color: #d9dcd6;
+}
+
+/* Pads 15px to the top of the navigation bar;
+   Creates a margin of 20px to the right of the navigation bar;
+   Specifies that the links in the navigation bar should float towards the right;
+   Sets the font family of the links in the navigation bar;
+   Sets the font size of the links*/
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+/* No marker on each link in the navigation bar */
+header nav ul {
+  list-style-type: none;
+}
+
+/* Each link in the navigator bar is displayed as blocks but next to each other;
+   Creates a margin of 25px to the left of each link */
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* Sets the color of the links to be white with no text-decoration */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Sets the text size inside the paragraph tags */
+p {
+  font-size: 16px;
+}
+
+/* 
+   Sets the height of the image to 800px;
+   Sets the width of the image to be the same as its containing block which is the article block;
+   Creates a margin of 25px and add it to the bottom of the image;
+   Gets the url of the picture;
+   Specifies that the images covers the entire article block;
+   Centers the image inside the article block
+*/
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url('../images/digital-marketing-meeting.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Definition of the content class */
+/* Used by main tags */
+/* Sets the width of each section inside the main section to be 75% of the width of 
+the containing block( in this case the main tags ). */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Creates a margin of 20px to the bottom of the section associated with the header "Search Engine Optimization";
+   Pads 50px around to the section;
+   Sets the height of the section to be 300px;
+   Sets the font family of the text inside the section;
+   Sets the background color of the section to be blue;
+   Sets the text color inside the section to be white. 
+*/
+.search-engine-optimization {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Moves the search-engine-optimization image to the left and pads the space to its left */
+/* Used by the section id'ed search-engine-optimization in the main tag*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+/* Creates a margin of 20px to the bottom of the section associated with the header "Online Reputation Management";
+   Pads 50px around to the section;
+   Sets the height of the section to be 300px;
+   Sets the font family of the text inside the section;
+   Sets the background color of the section to be blue;
+   Sets the text color inside the section to be white. */
+.online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Moves the online-reputation-management image to the right and pads the space to its right */
+/* Used by the section id'ed online-reputation-management in the main tag*/
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Creates a margin of 20px to the bottom of the section associated with the header "Social Media Marketing";
+   Pads 50px around to the section;
+   Sets the height of the section to be 300px;
+   Sets the font family of the text inside the section;
+   Sets the background color of the section to be blue;
+   Sets the text color inside the section to be white. */
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Sets the maximum height of the image inside the section with the header */
+/* "Search Engine Optimization. */
+.search-engine-optimization img {
+  max-height: 200px;
+}
+
+/* Sets the maximum height of the image inside the section with the header */
+/* "online-reputation-management. */
+.online-reputation-management img {
+  max-height: 200px;
+}
+
+/* Sets the maximum height of the image inside the section with the header */
+/* "social-media-marketing. */
+.social-media-marketing img {
+  max-height: 200px;
+}
+
+/* Sets a margin to be 20px from the bottom of the header inside the section 
+of "Search Engine Optimization". */
+/* Sets the font size of the header to be 36px. */
+.search-engine-optimization h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Sets a margin to be 20px from the bottom of the header inside the section 
+of "online-reputation-management". */
+/* Sets the font size of the header to be 36px. */
+.online-reputation-management h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Sets a margin to be 20px from the bottom of the header inside the section 
+of "social-media-marketing". */
+/* Sets the font size of the header to be 36px. */
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Configures the sidebar */
+/* Used by the aside tags */
+/* Creates a margin of 20px to the right of the sidebar;
+   Pads 20px around the sidebar;
+   Does not allow floating elements on either the left or the right side of the sidebar;
+   Makes the sidebar float towards the right of the website;
+   Sets the width of the sidebar to be 20% of the width of the containing block;
+   Sets the height of the sidebar to be the 100% of the containing block ( in this case the aside tags ).  */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+
+/* Sets the text color to white and creates a margin of 32px at the bottom of the image inside the section 
+with the class "benefit-lead" inside the aside tags. */
+.benefit-lead {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Sets the text color to white and creates a margin of 32px at the bottom of the image inside the section 
+with the class "benefit-brand" inside the aside tags. */
+.benefit-brand {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Sets the text color to white and creates a margin of 32px at the bottom of the image inside the section 
+with the class "benefit-cost" inside the aside tags. */
+.benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Centers the header and creates a margin of 32px at the bottom of the image
+inside the section in the aside tags assoicated with the class "benefit-lead". */
+.benefit-lead h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Centers the header and creates a margin of 32px at the bottom of the image
+inside the section in the aside tags assoicated with the class "benefit-brand". */
+.benefit-brand h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Centers the header and creates a margin of 32px at the bottom of the image
+inside the section in the aside tags assoicated with the class "benefit-cost". */
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Displays the image inside the section associated with the class "benefit-lead"
+as a block, and sets a margin of 10px around it and sets its max-width to be 150px. */
+.benefit-lead img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* Displays the image inside the section associated with the class "benefit-brand"
+as a block, and sets a margin of 10px around it and sets its max-width to be 150px. */
+.benefit-brand img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* Displays the image inside the section associated with the class "benefit-cost"
+as a block, and sets a margin of 10px around it and sets its max-width to be 150px. */
+.benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* Creates a padding of 30px around the text in the footer,
+sets font-family of the text, and centers the text.
+Also clears any floating elements on both sides of the text. */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Sets the size of the h4 header in the footer tags to be 20px. */
+footer h4 {
+  font-size: 20px;
+}
